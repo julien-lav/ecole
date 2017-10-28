@@ -25,7 +25,12 @@ var settings = {
 
 };
 
-
+$(document).ready(function(){
+    $(".toggle-text").click(function(e){
+    	e.preventDefault();
+        $(".hidden-text").toggle();
+    });
+});
 
 
 (function($) {
