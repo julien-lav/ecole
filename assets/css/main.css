@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 /* @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"); */
 /* Helvetica Arial */
 
@@ -33,7 +33,7 @@
 	}
 
 	blockquote:before, blockquote:after, q:before, q:after {
-		content: '';
+
 		content: none;
 	}
 
@@ -1583,9 +1583,8 @@
 /* Type */
 
 	html {
-		font-size: 13pt;
+		font-size: 15pt;
 	}
-
 		@media screen and (max-width: 1680px) {
 
 			html {
@@ -1807,7 +1806,7 @@
 
 	.box {
 		margin-bottom: 2rem;
-		background: #FFF;
+		background: black;
 	}
 	/*TEST COLOR*/
 
@@ -2668,8 +2667,8 @@
 
 /* Wrapper */
 
-	.wrapper {
-		padding: 6rem 0 4rem 0 ;
+	.wrapper { /* remonter */
+		padding: 4rem 0 2rem 0 ;
 		position: relative;
 		margin: 0;
 	}
@@ -4575,3 +4574,16 @@ h1, h2, h3 {
   color: grey;
   animation-duration: 2s;
 }
+
+p {
+ 	color: white;
+ }
+div {
+ 	color: white;
+ }
+
+ h2 {
+ 	color: white !important;
+ 	font-style: bold !important;
+ 	font-size: 40pt;
+ }
