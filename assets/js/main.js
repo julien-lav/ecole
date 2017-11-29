@@ -382,4 +382,26 @@ $(document).ready(function(){
 });
 
 
+'use strict';
+
+var closePopup = function() {
+  console.log('closePopup');
+  $('.dd-closeit').click(function(){
+    $('.dd-popup').fadeOut('fast');
+  });
+
+   $(document).mouseup(function (e) {
+     var popup = $(".dd-popup-inner");
+     if (!popup.is(e.target) && popup.has(e.target).length == 0) {
+         $('.dd-popup').fadeOut('fast');
+     }
+ });
+}
+
+$(document).ready(function(){
+  // Fecha popup
+  closePopup();
+});
+
+
 })(jQuery);

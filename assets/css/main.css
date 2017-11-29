@@ -4743,3 +4743,155 @@ h2 {
  	/* font-style: italic; */
  	line-height: 5px; /*  RECHERCHE  */
  }
+
+/**//**//* POPUP *//**/
+ .dd-popup {
+  font-family: "ProximaNova", sans-serif;
+  color: #124F79;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(155, 155, 155, 0.5);
+  z-index: 9999; }
+  .dd-popup form {
+    text-align: center; }
+    .dd-popup form td {
+      text-align: left; }
+  .dd-popup h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 36px; }
+    @media screen and (max-width: 805px) {
+      .dd-popup h2 {
+        font-size: 4vw; } }
+  .dd-popup strong {
+    font-weight: bolder;
+    font-style: italic; }
+  .dd-popup table {
+    width: 100%;
+    margin: 60px 0 45px; }
+    @media screen and (max-width: 805px) {
+      .dd-popup table {
+        margin: 5vw 0 3vw; } }
+    .dd-popup table tr {
+      display: inline-table;
+      width: 100%; }
+      .dd-popup table tr:first-child {
+        margin-bottom: 35px; }
+        @media screen and (max-width: 805px) {
+          .dd-popup table tr:first-child {
+            margin-bottom: 3vw; } }
+  .dd-popup td {
+    width: 70%; }
+    .dd-popup td.label {
+      font-family: "Proxima Nova",sans-serif;
+      width: 30%;
+      font-size: 40px; }
+      @media screen and (max-width: 805px) {
+        .dd-popup td.label {
+          font-size: 4vw; } }
+  .dd-popup input,
+  .dd-popup button {
+    border: 0;
+    -webkit-transition: all ease-out .2s;
+    -moz-transition: all ease-out .2s;
+    -ms-transition: all ease-out .2s;
+    -o-transition: all ease-out .2s;
+    transition: all ease-out .2s;
+    color: #124F79; }
+    .dd-popup input:focus,
+    .dd-popup button:focus {
+      outline: none; }
+  .dd-popup input[type="text"],
+  .dd-popup input[type="email"] {
+    width: 100%;
+    background-color: #F1F1F2;
+    padding: 4px 10px;
+    font-size: 30px;
+    font-family: "Proxima Nova",sans-serif;
+    -webkit-box-shadow: inset 2px 2px 6px #BDBDBD, 5px 5px 4px #E0E0E0;
+    -moz-box-shadow: inset 2px 2px 6px #BDBDBD, 5px 5px 4px #E0E0E0;
+    box-shadow: inset 2px 2px 6px #BDBDBD, 5px 5px 4px #E0E0E0; }
+  .dd-popup .dd-btn,
+  .dd-popup input[type="submit"] {
+    background-color: #00A550;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px;
+    font-size: 22px; }
+    @media screen and (max-width: 805px) {
+      .dd-popup .dd-btn,
+      .dd-popup input[type="submit"] {
+        font-size: 4vw; } }
+    .dd-popup .dd-btn:hover,
+    .dd-popup input[type="submit"]:hover {
+      background-color: #006B34; }
+  .dd-popup .dd-block {
+    display: block; }
+  .dd-popup .dd-all-center {
+    #position: absolute;
+    #top: 50%;
+    display: table-cell;
+    vertical-align: middle; }
+  .dd-popup .dd-center {
+    #position: relative;
+    #top: -50%;
+    text-align: center;
+    position: relative; }
+  .dd-popup .dd-sizing, .dd-popup input[type="text"],
+  .dd-popup input[type="email"], .dd-popup .dd-popup-inner {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box; }
+  .dd-popup .dd-popup-box {
+    height: 100%;
+    display: table;
+    width: 100%; }
+  .dd-popup .dd-popup-inner {
+    position: relative;
+    width: 805px;
+    background-color: #fff;
+    padding: 50px 20px 35px;
+    display: inline-block;
+    margin: 0 auto; }
+    @media screen and (max-width: 805px) {
+      .dd-popup .dd-popup-inner {
+        width: 95%;
+        padding: 5vw 20px 2vw; } }
+
+/*# sourceMappingURL=popup.css.map */
+
+div#dd-success {
+  display: none;
+  text-align: center;
+  font-size: 24px;
+  margin: 40px 0 20px;
+}
+
+.dd-close {
+  background-image: url('../images/close.png');
+  background-size: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: transparent;
+  padding: 14px;
+  margin: 10px;
+}
+
+.dd-btn-close {
+  color: #00A550;
+  -webkit-transition: all ease-out .2s;
+  -moz-transition: all ease-out .2s;
+  -ms-transition: all ease-out .2s;
+  -o-transition: all ease-out .2s;
+  transition: all ease-out .2s;
+}
+
+.dd-btn-close:hover {
+  color: #006B34;
+}
